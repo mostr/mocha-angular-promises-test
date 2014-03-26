@@ -41,7 +41,7 @@ describe('Testing promises with mocha', function() {
   // tick to be invoked by $rootScope.$apply();
   // but don't know where to invoke it
 
-  it('should test promises using return - failing test', function(done) {
+  it('should test promises using return - failing test', function() {
     return service.load().then(function(data) {
       expect(data).to.equal('Hi there');
     });
