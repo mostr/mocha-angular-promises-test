@@ -6,5 +6,8 @@ Old way of testing promises (with `done`) works fine as well as testing regular 
 
 ##### How to run
 
-1) Run `karma` server with `node_modules/karma/bin/karma start`
-2) Run single test run with `node_modules/karma/bin/karma run`
+1. Call `npm install` first
+2. Run Karma server with `node_modules/karma/bin/karma start`
+3. Run single test run with `node_modules/karma/bin/karma run`
+
+There is one test failing - one that tries to use new promises support.
